@@ -11,7 +11,6 @@ public class q5 {
         LinkedList<Integer> linkedList = new LinkedList<>();
         Scanner scanner = new Scanner(System.in);
 
-        // Initialize the linked list with elements 1, 2, 3, 4, 5
         linkedList.add(1);
         linkedList.add(2);
         linkedList.add(3);
@@ -19,7 +18,6 @@ public class q5 {
         linkedList.add(5);
         System.out.println("Linked List: " + linkedList);
 
-        // Insert elements at the first and last positions
         System.out.println("Enter element to insert at the first position: ");
         int firstElement = scanner.nextInt();
         linkedList.addFirst(firstElement);
@@ -32,7 +30,6 @@ public class q5 {
 
         System.out.println("Linked List after inserting element: " + linkedList);
 
-        // Insert element at a specified position
         System.out.print("Enter position to insert element: ");
         int position = scanner.nextInt();
         System.out.print("Enter element to insert: ");
