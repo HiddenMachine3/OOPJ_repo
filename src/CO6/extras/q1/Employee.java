@@ -39,14 +39,18 @@ public abstract class Employee {
     }
 
     public static void main(String[] args) {
-        Programmer programmer = new Programmer("John Doe", 1001, "123 Main St", "john.doe@example.com", "1234567890",
-                50000);
-        AssistantProfessor assistantProfessor = new AssistantProfessor("Jane Smith", 2001, "456 Elm St",
-                "jane.smith@example.com", "9876543210", 60000);
-        AssociateProfessor associateProfessor = new AssociateProfessor("David Johnson", 3001, "789 Oak St",
-                "david.johnson@example.com", "4567891230", 70000);
-        Professor professor = new Professor("Sarah Williams", 4001, "321 Pine St", "sarah.williams@example.com",
-                "7891234560", 80000);
+        Programmer programmer = new Programmer(
+        "brar", 1001, "#420 69th main, 69th cross,JAyangar, Bangalore",
+         "abrar.h@gmail.com", "1234567890",50000);
+        AssistantProfessor assistantProfessor = new AssistantProfessor(
+            "Bakshay", 2001, "#420 69th main, 69th cross,JAyangar, Bangalore",
+                "bakshayb@hotmail.com", "1234567890", 60000);
+        AssociateProfessor associateProfessor = new AssociateProfessor(
+            "Senjenn", 3001, "#420 69th main, 69th cross,JAyangar, Bangalore",
+                "senjen@yahoo.com", "1234567890", 70000);
+        Professor professor = new Professor(
+            "AnSush", 4001, "#420 69th main, 69th cross,JAyangar, Bangalore", 
+            "sarah.williams@example.com","1234567890", 80000);
 
         System.out.println("Programmer Pay Slip:");
         System.out.println(programmer.toString());
